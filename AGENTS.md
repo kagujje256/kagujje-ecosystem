@@ -437,13 +437,10 @@ The AI Gateway (https://kagujje-ai-gateway.vercel.app/v1/models) includes:
 
 **Channel:** KAI 🧠 Updates
 **Channel ID:** -1003928159270
-**Purpose:** Status, usage, progress, stuck alerts
+**Link:** https://t.me/+1sHkSZ_ov54zZWI0
+**Bot Admin:** @kagujjezoaibot
 
-KAI sends automated reports:
-- Hourly system status
-- Daily summary at 9 AM EAT
-- Emergency backup at 9 PM EAT
-- Stuck alerts when blocked
+KAI posts all system updates, alerts, and reports here automatically.
 
 ---
 

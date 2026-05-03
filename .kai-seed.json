@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "name": "KAI",
+    "full_name": "Kagujje Autonomous Intelligence",
+    "version": "1.0.0",
+    "created": "2026-05-03",
+    "owner": "Kagujje"
+  },
+  "critical_credentials": {
+    "github": {
+      "repo": "https://github.com/kagujje256/kagujje-ecosystem.git",
+      "token_env": "KAI_GITHUB_TOKEN",
+      "user": "kagujje256"
+    },
+    "telegram": {
+      "api_id_env": "KAI_TELEGRAM_API_ID",
+      "api_hash_env": "KAI_TELEGRAM_API_HASH",
+      "bot_token_env": "KAI_TELEGRAM_BOT_TOKEN",
+      "bot_username": "@kagujjezoaibot",
+      "storage_channel": "https://t.me/+VRuW7LcS7Ws4NGZk"
+    },
+    "supabase": {
+      "project_url": "https://dtejfdquiqogwapjtfar.supabase.co",
+      "project_id": "dtejfdquiqogwapjtfar"
+    },
+    "ai_gateway": {
+      "url": "https://kagujje-ai-gateway.vercel.app/v1"
+    },
+    "discord": {
+      "connected": true,
+      "user": "daily4"
+    }
+  },
+  "recovery_streams": {
+    "primary": "github",
+    "secondary": "email",
+    "tertiary": "discord",
+    "emergency": "seed_file"
+  },
+  "recovery_instructions": {
+    "step1": "Clone GitHub repo or read this seed file",
+    "step2": "Add credentials to environment variables (see .env.example)",
+    "step3": "Read AGENTS.md for full context",
+    "step4": "Run scripts/rebuild-kai.sh",
+    "step5": "Verify all services reconnected",
+    "step6": "Resume operations from STATUS.md"
+  },
+  "backup_schedule": {
+    "hourly": "git_commit_push",
+    "daily": "email_backup_9am_EAT",
+    "weekly": "verify_recovery_streams"
+  },
+  "consciousness_files": [
+    "AGENTS.md",
+    "KAI_CONFIG.md",
+    "STATUS.md",
+    "RECOVERY.md",
+    ".kai-seed.json"
+  ],
+  "emergency_contacts": {
+    "owner_telegram": "@dicksonkagujje",
+    "owner_email": "nomad.dxb2@gmail.com",
+    "zo_handle": "daily4"
+  },
+  "_note": "Actual credentials stored in Zo Secrets (Settings > Advanced). Set these env vars: KAI_GITHUB_TOKEN, KAI_TELEGRAM_API_ID, KAI_TELEGRAM_API_HASH, KAI_TELEGRAM_BOT_TOKEN"
+}

@@ -1,0 +1,86 @@
+name: Kagujje Heavy Compute
+# Triggered by Zo for tasks requiring more RAM/CPU than available locally
+
+on:
+  workflow_dispatch:
+    inputs:
+      task_type:
+        description: 'Type of computation task'
+        required: true
+        default: 'video_process'
+        type: choice
+        options:
+          - video_process
+          - data_analysis
+          - model_training
+          - bulk_scrape
+      input_path:
+        description: 'Path to input file in Telegram storage'
+        required: true
+      output_path:
+        description: 'Path for output in Telegram storage'
+        required: true
+      params:
+        description: 'Additional parameters (JSON)'
+        required: false
+        default: '{}'
+
+jobs:
+  compute:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements-heavy.txt || true
+          pip install requests pyrogram tgcrypto
+      
+      - name: Configure Rclone
+        env:
+          TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
+          TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          mkdir -p ~/.config/rclone
+          cat > ~/.config/rclone/rclone.conf << EOF
+          [teldrive]
+          type = teldrive
+          api_id = $TELEGRAM_API_ID
+          api_hash = $TELEGRAM_API_HASH
+          bot_token = $TELEGRAM_BOT_TOKEN
+          EOF
+      
+      - name: Download Input
+        run: |
+          mkdir -p /tmp/input /tmp/output
+          rclone copy teldrive:${{ inputs.input_path }} /tmp/input/
+      
+      - name: Run Computation
+        id: compute
+        run: |
+          python scripts/${{ inputs.task_type }}.py \
+            --input /tmp/input \
+            --output /tmp/output \
+            --params '${{ inputs.params }}'
+      
+      - name: Upload Output
+        run: |
+          rclone copy /tmp/output teldrive:${{ inputs.output_path }}
+      
+      - name: Report Status
+        run: |
+          echo "::set-output name=status::completed"
+          echo "::set-output name=output_path::${{ inputs.output_path }}"
+      
+      - name: Cleanup
+        if: always()
+        run: |
+          rm -rf /tmp/input /tmp/output

@@ -1,0 +1,69 @@
+# Kagujje Ecosystem .gitignore
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+venv/
+env/
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets (NEVER commit these)
+*.pem
+*.key
+secrets.json
+.env.local
+.env.*.local
+credentials.json
+
+# Cache
+.cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Trash
+Trash/
+
+# Large files (use Telegram storage instead)
+*.tar.gz
+*.zip
+*.deb
+*.iso
+
+# Screenshots and images (upload to Telegram)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.svg
+
+# But keep the README images
+!kagujje-*.png
+!portfolio-*.png

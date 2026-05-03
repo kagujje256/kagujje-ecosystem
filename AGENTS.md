@@ -453,7 +453,7 @@ The AI Gateway (https://kagujje-ai-gateway.vercel.app/v1/models) includes:
 
 ---
 
-## 🔄 KAI Model Switching
+## 🔄 KAI Model Switching & Error
 
 **A**
 

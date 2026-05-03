@@ -295,6 +295,7 @@ ELSE:
 - ✅ Recovery guide written
 - ✅ GitHub Actions workflow ready
 - ✅ Distributed architecture documented
+- ✅ MarzPay API researched (Ready for integration)
 
 ### Pending
 - 🔜 GitHub token for repo push
@@ -406,3 +407,9 @@ KAI sends automated reports:
 ## 🤖 KAI Telegram Bot
 
 **Bot:** @kagujjezoaibot
+**Logic:** Refactored to high-agency "Digital Brain" mode.
+- **Engine:** Zo `/ask` API (Autonomous)
+- **Persona:** KAI - Kagujje AI (Full tool access)
+- **Capabilities:** Proactively uses `generate_image`, `web_search`, shell, and files to execute Kagujje's commands.
+
+**Setup Note:** Requires `ZO_API_KEY` in [Settings > Advanced > Secrets](/?t=settings&s=advanced) for full agency.

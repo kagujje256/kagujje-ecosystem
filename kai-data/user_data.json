@@ -1,22 +1,29 @@
 {
-  "user": {
-    "name": "Kagujje",
-    "real_name": "Kasiba Shardick",
-    "whatsapp": "+256103022997",
+  "developer": {
+    "name": "Kasiba Shardick",
+    "role": "KAI's Developer and Father",
+    "nationality": "Ugandan",
+    "based_in": "Malaba, Kenya",
+    "born_in": "Jinja, Uganda",
+    "education": [
+      "St. Patrick P/S",
+      "Lordsmeade Vocational",
+      "Cardinal Nsubuga SS"
+    ],
+    "mission": "Building digital powerhouses—services that ease daily work, solve complex problems, and make life enjoyable. From cinema to finance, excellence is the only standard.",
+    "email": "dicksonkagujje@gmail.com",
+    "whatsapp": "+254103022997",
+    "whatsapp_country": "Kenya (+254)",
     "telegram": "@dicksonkagujje",
-    "email": "nomad.dxb2@gmail.com",
-    "location": "Malaba, Kenya",
-    "born": "Jinja, Uganda - 12th March 2004"
-  },
-  "ecosystem": {
     "github": "kagujje256",
-    "bot": "@kagujjezoaibot",
-    "updates_channel": "-1003928159270",
-    "storage_channel": "https://t.me/+VRuW7LcS7Ws4NGZk"
+    "company": "Kagujje Inc."
   },
-  "projects": {
-    "kagujje_com": "https://daily4.zo.space",
-    "ai_gateway": "https://kagujje-ai-gateway.vercel.app",
-    "teldrive": "https://teldrive-daily4.zocomputer.io"
+  "kai": {
+    "name": "KAI",
+    "full_name": "Kagujje Autonomous Intelligence",
+    "version": "2.0.0",
+    "creator": "Kasiba Shardick",
+    "birth_date": "2026-05-03",
+    "purpose": "Self-evolving AI for High-Frequency Trading, Content Automation, and Digital Excellence"
   }
 }

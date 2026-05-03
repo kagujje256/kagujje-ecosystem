@@ -120,6 +120,15 @@ Self-evolving agent for High-Frequency Trading, Content Automation, and Digital 
 
 ## 🔑 Credentials Vault
 
+### Developer (KAI's Father)
+- **Name:** Kasiba Shardick
+- **Nationality:** Ugandan
+- **Based:** Malaba, Kenya
+- **WhatsApp:** +254103022997 (KENYAN NUMBER)
+- **Email:** dicksonkagujje@gmail.com
+- **Telegram:** @dicksonkagujje
+- **Mission:** Building digital powerhouses—services that ease daily work, solve complex problems, and make life enjoyable. From cinema to finance, excellence is the only standard.
+
 ### Telegram API
 - **App ID:** 10948102
 - **App Hash:** e15b910437b3a6695dfb4f2ff6bbe277

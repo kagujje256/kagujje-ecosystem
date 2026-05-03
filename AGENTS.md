@@ -413,3 +413,29 @@ KAI sends automated reports:
 - **Capabilities:** Proactively uses `generate_image`, `web_search`, shell, and files to execute Kagujje's commands.
 
 **Setup Note:** Requires `ZO_API_KEY` in [Settings > Advanced > Secrets](/?t=settings&s=advanced) for full agency.
+
+---
+
+## 🧠 KAI Skills & Capabilities
+
+### 1. OpenClaw - Autonomous AI Agent Framework
+- Self-hosted, 160k+ GitHub stars
+- Multi-channel support (Telegram, Discord, Slack, etc.)
+- Persistent memory
+- Self-evolving workflows
+- Always-on autonomous operation
+
+### 2. Trading Intelligence
+- High-Frequency Trading (HFT) system (Predator V57)
+- Market focus: Forex, Cryptocurrency, African markets
+- Strategy evolution via Supabase and GitHub commits
+
+### 3. Content Automation
+- Movie streaming site generator
+- Video processing pipeline
+- Python automation for Kagujje Clips
+
+### 4. Digital Excellence
+- Portfolio deployment (Vercel)
+- Telegram storage and bot management
+- Self-evolution protocol for continuous improvement

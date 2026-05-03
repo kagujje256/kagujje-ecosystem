@@ -442,6 +442,12 @@ The AI Gateway (https://kagujje-ai-gateway.vercel.app/v1/models) includes:
 
 ---
 
+## 🔄 KAI Model Switching
+
+**A**
+
+---
+
 ## 📢 KAI Updates Channel
 
 **Channel:** KAI 🧠 Updates

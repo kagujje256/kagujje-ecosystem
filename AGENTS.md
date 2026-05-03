@@ -309,6 +309,50 @@ ELSE:
 
 ---
 
-*Last Updated: 2026-05-03 04:15 UTC*
-*Maintained by: Kagujje Central Intelligence*
+## 🔧 OpenClaw Integration
+
+OpenClaw is a self-hosted autonomous AI agent framework (160k+ GitHub stars) that can run KAI independently.
+
+**Install on Zo:**
+```bash
+curl -fsSL https://openclaw.ai/install.sh | bash
+```
+
+**Install on external server (recommended for heavy workloads):**
+- Fly.io, Railway, Render, Hetzner, or any VPS
+- Full docs: https://docs.openclaw.ai/install
+
+**Benefits:**
+- Always-on autonomous operation
+- Multi-channel support (Telegram, Discord, Slack, etc.)
+- Persistent memory
+- Self-evolving workflows
+
+---
+
+## 🤖 KAI - Kagujje Autonomous Intelligence
+
+**Status:** ACTIVE
+**Created:** 2026-05-03
+
+### Scheduled Agents
+1. **KAI-Learning** (Hourly)
+   - Reads ecosystem state
+   - Gathers info from web, Telegram, GitHub
+   - Updates STATUS.md
+   - Commits changes to repo
+
+2. **KAI-Summary** (Daily 9 AM EAT)
+   - Generates daily report
+   - Sends to Telegram
+   - Syncs to GitHub
+
+### Model
+- Primary: Groq (llama-3.3-70b) - Fast, cheap
+- Fallback: AI Gateway - Unlimited
+
+---
+
+*Last Updated: 2026-05-03 04:35 UTC*
+*Maintained by: KAI Autonomous Intelligence*
 *Version: 1.0.0*

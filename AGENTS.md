@@ -531,3 +531,27 @@ KAI posts all system updates, alerts, and reports here automatically.
 - KAI never stops.
 - If one model hits a limit, KAI immediately switches to the next.
 - Updates are pushed to the channel continuously.
+
+---
+
+## 💓 KAI Live Heartbeat
+
+**Status:** ACTIVE
+**Frequency:** Every 60 seconds
+**Channel:** KAI 🧠 Updates
+
+**Features:**
+- System resources monitoring
+- Service health checks
+- Agent status reporting
+- Auto-editing messages (not spamming)
+- Real-time status updates
+
+**Active Agents:**
+1. KAI Live Heartbeat (1 min) - Live status
+2. KAI Live Update (10 min) - Detailed updates
+3. KAI Error Monitor (5 min) - Error detection
+4. Daily Summary (9 AM EAT) - Daily report
+5. Backup Agent (9 PM EAT) - Disaster recovery
+
+---

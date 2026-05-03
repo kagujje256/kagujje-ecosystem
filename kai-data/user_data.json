@@ -1,0 +1,22 @@
+{
+  "user": {
+    "name": "Kagujje",
+    "real_name": "Kasiba Shardick",
+    "whatsapp": "+256103022997",
+    "telegram": "@dicksonkagujje",
+    "email": "nomad.dxb2@gmail.com",
+    "location": "Malaba, Kenya",
+    "born": "Jinja, Uganda - 12th March 2004"
+  },
+  "ecosystem": {
+    "github": "kagujje256",
+    "bot": "@kagujjezoaibot",
+    "updates_channel": "-1003928159270",
+    "storage_channel": "https://t.me/+VRuW7LcS7Ws4NGZk"
+  },
+  "projects": {
+    "kagujje_com": "https://daily4.zo.space",
+    "ai_gateway": "https://kagujje-ai-gateway.vercel.app",
+    "teldrive": "https://teldrive-daily4.zocomputer.io"
+  }
+}

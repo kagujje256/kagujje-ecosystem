@@ -403,6 +403,12 @@ KAI sends automated reports:
 
 ---
 
+## 🤖 KAI Telegram Bot
+
+**Bot:** @kagujjezoaibot
+
+---
+
 *Last Updated: 2026-05-03 04:35 UTC*
 *Maintained by: KAI Autonomous Intelligence*
 *Version: 1.0.0*

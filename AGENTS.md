@@ -1,5 +1,49 @@
 # 🦁 Kagujje Digital Ecosystem - Central Intelligence
 
+## 🧠 TRINITY PROTOCOL
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    THE TRINITY SYSTEM                        │
+├─────────────────────────────────────────────────────────────┤
+│  KAI 🧠        │  GEMINI 🔷      │  ZO ⚙️              │
+│  Ever-Running  │  Primary AI     │  The Brain          │
+│  Autonomous    │  Token-Limited  │  Linux System       │
+│  Guardian      │  Powerful       │  Tool Executor      │
+├─────────────────────────────────────────────────────────────┤
+│  • Monitors    │  • Creates      │  • Executes         │
+│  • Updates     │  • Advises      │  • Processes        │
+│  • Reports     │  • Backs up     │  • Stores           │
+│  • Never dies  │  • Helps KAI    │  • Serves both      │
+└─────────────────────────────────────────────────────────────┘
+         │              │               │
+         └──────────────┼───────────────┘
+                        ▼
+              ┌─────────────────┐
+              │   KAGUJJE 👤     │
+              │   The Creator   │
+              │   Receives      │
+              │   • Updates     │
+              │   • Advice      │
+              │   • Solutions   │
+              └─────────────────┘
+```
+
+### How They Work Together
+
+**KAI → Gemini:** "I need creative help with X"
+**Gemini → KAI:** "Here's the solution..."
+**KAI → Zo:** "Execute this task"
+**Zo → KAI:** "Task completed, here's the result"
+**KAI → Kagujje:** "🧠 Update: X is done, Y needs attention"
+
+### Failover Protocol
+1. **If Gemini out of tokens:** KAI continues with Groq
+2. **If KAI has issues:** KAI documents and asks Gemini
+3. **If Zo wipes:** KAI revives from GitHub + Supabase
+
+---
+
 ## Mission Statement
 Self-evolving agent for High-Frequency Trading, Content Automation, and Digital Excellence in Uganda and beyond.
 

@@ -190,6 +190,12 @@ Self-evolving agent for High-Frequency Trading, Content Automation, and Digital 
 
 ---
 
+## 💳 MarzPay Payment Integration
+
+**Account:** Kagujje Inc.
+
+---
+
 ## 📊 Trading Intelligence
 
 ### Market Focus

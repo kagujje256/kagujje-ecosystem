@@ -335,21 +335,57 @@ curl -fsSL https://openclaw.ai/install.sh | bash
 **Status:** ACTIVE
 **Created:** 2026-05-03
 
+### KAI Updates Channel
+**Telegram:** https://t.me/+1sHkSZ_ov54zZWI0
+- Real-time status updates
+- Usage statistics
+- Size and progress reports
+- Activity logs
+
 ### Scheduled Agents
 1. **KAI-Learning** (Hourly)
    - Reads ecosystem state
    - Gathers info from web, Telegram, GitHub
    - Updates STATUS.md
    - Commits changes to repo
+   - Posts updates to KAI Updates channel
 
 2. **KAI-Summary** (Daily 9 AM EAT)
    - Generates daily report
    - Sends to Telegram
    - Syncs to GitHub
 
+3. **KAI-Backup** (Daily 9 PM EAT)
+   - Creates emergency backup
+   - Sends to email
+   - Ensures KAI never dies
+
 ### Model
 - Primary: Groq (llama-3.3-70b) - Fast, cheap
 - Fallback: AI Gateway - Unlimited
+
+### Adding KAI to Zo's Model List
+KAI is configured as a BYOK (Bring Your Own Key) model in Zo:
+- Model ID: `byok:8c27aace-aa4b-4bc5-baf9-56b6b3a42b80` (Groq)
+- Alias: `byok:42576ae8-e16a-4f6f-ae06-e45da8649cb1` (Kagujje Unlimited)
+
+To add more models:
+1. Go to Settings > AI > Providers
+2. Add a BYOK provider with your API key
+3. Use the model ID in KAI_CONFIG.md
+
+### AI Gateway Models
+The AI Gateway (https://kagujje-ai-gateway.vercel.app/v1/models) includes:
+- Groq models (llama-3.3-70b, llama-4-scout, etc.)
+- KAI models (kai, kai-fast, kai-smart)
+- Short aliases (llama, llama-70b, scout)
+
+---
+
+## 🌐 Live Sites
+
+### Main Portfolio
+- **URL:** https://kagujje-portfolio.vercel.app
 
 ---
 

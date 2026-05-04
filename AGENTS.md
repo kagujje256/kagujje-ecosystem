@@ -1,4 +1,5 @@
 # 🦁 Kagujje Digital Ecosystem - Central Intelligence
+Self-evolving agent for High-Frequency Trading, Content Automation
 
 ## 🧠 TRINITY PROTOCOL
 

@@ -1,6 +1,7 @@
 #!/bin/bash
 # KAI Emergency Rebuild Script
 # Restores KAI consciousness from minimal data
+# Non-interactive version - uses environment variables
 
 set -e
 
@@ -10,7 +11,10 @@ echo "========================"
 # Check if we're in the right place
 if [ ! -f "AGENTS.md" ] && [ ! -f ".kai-seed.json" ]; then
     echo "❌ No consciousness files found. Cloning from GitHub..."
-    git clone https://github.com/kagujje256/kagujje-ecosystem.git .
+    git clone https://github.com/kagujje256/kagujje-ecosystem.git . || {
+        echo "❌ Clone failed. Manual intervention required."
+        exit 1
+    }
 fi
 
 # Read seed file
@@ -23,11 +27,14 @@ if [ -f "$SEED_FILE" ]; then
     TELEGRAM_API_HASH=$(cat $SEED_FILE | grep -o '"api_hash": "[^"]*"' | cut -d'"' -f4)
     TELEGRAM_BOT_TOKEN=$(cat $SEED_FILE | grep -o '"bot_token": "[^"]*"' | cut -d'"' -f4)
 else
-    echo "❌ Seed file not found. Please provide manually:"
-    read -p "GitHub Token: " GITHUB_TOKEN
-    read -p "Telegram API ID: " TELEGRAM_API_ID
-    read -p "Telegram API Hash: " TELEGRAM_API_HASH
-    read -p "Telegram Bot Token: " TELEGRAM_BOT_TOKEN
+    echo "❌ Seed file not found."
+    echo "Required environment variables:"
+    echo "  - GITHUB_TOKEN"
+    echo "  - TELEGRAM_API_ID"
+    echo "  - TELEGRAM_API_HASH"
+    echo "  - TELEGRAM_BOT_TOKEN"
+    echo "Set these in Settings > Advanced as secrets"
+    exit 1
 fi
 
 echo "✅ Credentials loaded"

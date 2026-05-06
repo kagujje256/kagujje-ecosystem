@@ -42,9 +42,10 @@ async function runReasoner() {
     }
 
     // 2. Scan for Active Missions
-    const missionSection = agentsMd.split('## 📋 Autonomous Task Queue')[1]?.split('##')[0];
-    // Match patterns like: 1. **[LIVE] Mission Name:** or 2. **[IN PROGRESS] Mission Name:**
-    const activeMissions = missionSection?.match(/\d+\.\s*\*\*\[([^\]]+)\]\s*([^*]+)\*\*/g) || [];
+    const missionSection = agentsMd.split('## 📋 Autonomous Task Queue')[1]?.split('---')[0];
+    // Match patterns with or without status brackets: 
+    // 1. **[LIVE] Mission:** or 2. **Mission Name:**
+    const activeMissions = missionSection?.match(/\d+\.\s*\*\*(?:\[[^\]]+\]\s*)?([^*:]+):?\*\*/g) || [];
 
     if (activeMissions.length > 0) {
         log(`Found ${activeMissions.length} active missions.`);

@@ -1,5 +1,5 @@
 # 🧬 KAI Evolution Report
-**Generated:** 2026-05-06T00:40:46.280Z
+**Generated:** 2026-05-07T00:10:03.815Z
 
 ## Summary
 - **Scripts Analyzed:** 2
@@ -8,12 +8,12 @@
 
 ## Script Details
 
-### ✅ kai-reasoner.ts
-- **Lines:** 84
-- **Quality Score:** 100/100
-
 ### ✅ kai-pulse.ts
 - **Lines:** 58
+- **Quality Score:** 100/100
+
+### ✅ kai-reasoner.ts
+- **Lines:** 84
 - **Quality Score:** 100/100
 
 ## Recommendations

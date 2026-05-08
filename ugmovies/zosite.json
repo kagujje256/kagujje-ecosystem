@@ -1,0 +1,20 @@
+{
+  "name": "ugmovies",
+  "version": "1.0.0",
+  "description": "Ugandan Movies Streaming Platform",
+  "entrypoint": "bun run dev",
+  "buildCommand": "bun run build",
+  "outputDir": "dist",
+  "port": 5173,
+  "local_port": 5173,
+  "publish": {
+    "label": "ugmovies",
+    "type": "http",
+    "entrypoint": "bun run prod",
+    "published_port": 51730,
+    "env": {
+      "NODE_ENV": "production",
+      "ZO_CLIENT_IDENTITY_TOKEN": "none"
+    }
+  }
+}

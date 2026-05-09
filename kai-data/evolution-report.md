@@ -1,5 +1,5 @@
 # 🧬 KAI Evolution Report
-**Generated:** 2026-05-08T02:47:57.166Z
+**Generated:** 2026-05-09T00:11:36.943Z
 
 ## Summary
 - **Scripts Analyzed:** 3
@@ -8,6 +8,12 @@
 
 ## Script Details
 
+### ✅ presence-engine.ts
+- **Lines:** 24
+- **Quality Score:** 85/100
+- **Issues:**
+  - Missing error handling
+
 ### ✅ kai-pulse.ts
 - **Lines:** 58
 - **Quality Score:** 100/100
@@ -15,12 +21,6 @@
 ### ✅ kai-reasoner.ts
 - **Lines:** 84
 - **Quality Score:** 100/100
-
-### ✅ presence-engine.ts
-- **Lines:** 24
-- **Quality Score:** 85/100
-- **Issues:**
-  - Missing error handling
 
 ## Recommendations
 1. Move hardcoded secrets to environment variables

@@ -1,0 +1,1 @@
+---\nname: kai-advanced-trading\ndescription: Advanced trading analysis with orderflow, market pictures, entry setups, and Deriv pattern recognition for continuous profit generation.\ncompatibility: Created for Zo Computer\n---

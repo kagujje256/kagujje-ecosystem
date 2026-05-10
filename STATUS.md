@@ -1,6 +1,6 @@
 # 📊 KAI System Status
 
-**Last Updated:** 2026-05-08T02:47:00.215Z
+**Last Updated:** 2026-05-10T00:14:08.070Z
 **Status:** 🟢 ALL SYSTEMS OPERATIONAL
 
 ---
@@ -38,6 +38,9 @@
 | KAI Heartbeat (1min) | 🟢 Running |
 | KAI Live Update (10min) | 🟢 Running |
 | KAI Error Monitor (5min) | 🟢 Running |
+| PostgreSQL | 🟢 Online |
+| Teldrive | 🟢 Running |
+| Movies28 | 🟢 Running |
 | KAI Daily Summary (9am) | 🟢 Scheduled |
 | KAI Backup (9pm) | 🟢 Scheduled |
 | Kiro MCP Connection | 🟢 Connected |
@@ -66,8 +69,8 @@
 | Telegram Bot Token | ✅ Set |
 | MarzPay Keys | ✅ Set |
 | Supabase URL | ✅ Set |
-| Supabase Anon Key | ⚠️ Needs filling |
-| Supabase Service Role | ⚠️ Needs filling |
+| Supabase Anon Key | ✅ Set |
+| Supabase Service Role | ✅ Set |
 
 ---
 

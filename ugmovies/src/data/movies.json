@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sample-001",
+    "title": "The Last Gorilla",
+    "year": 2025,
+    "genre": ["Drama", "Action"],
+    "rating": 4.8,
+    "poster": "https://images.unsplash.com/photo-1489599848839-66f2de5fd71f?w=300&h=450&fit=crop",
+    "description": "A gripping tale of conservation and courage in the Ugandan wilderness. Translated by VJ Junior.",
+    "vj": "vj-junior",
+    "source": "labafilm",
+    "url": "https://labafilm.com/movie/the-last-gorilla"
+  },
+  {
+    "id": "sample-002",
+    "title": "Kampala Nights",
+    "year": 2024,
+    "genre": ["Romance", "Drama"],
+    "rating": 4.5,
+    "poster": "https://images.unsplash.com/photo-1518770660479-435de28c6a5a?w=300&h=450&fit=crop",
+    "description": "Love blooms in the bustling streets of Uganda's capital. A heartwarming story translated by VJ Emmy.",
+    "vj": "vj-emmy",
+    "source": "labafilm",
+    "url": "https://labafilm.com/movie/kampala-nights"
+  },
+  {
+    "id": "sample-003",
+    "title": "Queen of Katwe",
+    "year": 2016,
+    "genre": ["Biography", "Drama"],
+    "rating": 4.9,
+    "poster": "https://images.unsplash.com/photo-1529139288-6a976eb927a3?w=300&h=450&fit=crop",
+    "description": "The inspiring true story of Phiona Mutesi, chess prodigy from Katwe. Translated by VJ Jingo.",
+    "vj": "vj-jingo",
+    "source": "munowatch",
+    "url": "https://munowatch.com/movie/queen-of-katwe"
+  },
+  {
+    "id": "sample-004",
+    "title": "Gulu Warriors",
+    "year": 2023,
+    "genre": ["Action", "War"],
+    "rating": 4.6,
+    "poster": "https://images.unsplash.com/photo-1536440130724-134f0d004b87?w=300&h=450&fit=crop",
+    "description": "A powerful war drama set in Northern Uganda. The story of resilience and hope. Translated by VJ Ice P.",
+    "vj": "vj-icep",
+    "source": "labafilm",
+    "url": "https://labafilm.com/movie/gulu-warriors"
+  },
+  {
+    "id": "sample-005",
+    "title": "Jinja River Tales",
+    "year": 2024,
+    "genre": ["Drama", "Family"],
+    "rating": 4.4,
+    "poster": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=450&fit=crop",
+    "description": "A family drama about life along the source of the Nile. Translated by VJ Ulio.",
+    "vj": "vj-ulio",
+    "source": "munowatch",
+    "url": "https://munowatch.com/movie/jinja-river-tales"
+  },
+  {
+    "id": "sample-006",
+    "title": "Boda Boda Rush",
+    "year": 2025,
+    "genre": ["Comedy", "Action"],
+    "rating": 4.7,
+    "poster": "https://images.unsplash.com/photo-1516456844219-2a8ddc6d5c8a?w=300&h=450&fit=crop",
+    "description": "A hilarious action-comedy about a boda boda driver's adventures in Kampala. Translated by VJ Junior.",
+    "vj": "vj-junior",
+    "source": "labafilm",
+    "url": "https://labafilm.com/movie/boda-boda-rush"
+  }
+]

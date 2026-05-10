@@ -1,12 +1,16 @@
 # 🧬 KAI Evolution Report
-**Generated:** 2026-05-09T00:11:36.943Z
+**Generated:** 2026-05-10T00:14:39.990Z
 
 ## Summary
-- **Scripts Analyzed:** 3
-- **Average Quality Score:** 95/100
-- **Total Issues Found:** 1
+- **Scripts Analyzed:** 4
+- **Average Quality Score:** 89/100
+- **Total Issues Found:** 3
 
 ## Script Details
+
+### ✅ kai-reasoner.ts
+- **Lines:** 134
+- **Quality Score:** 100/100
 
 ### ✅ presence-engine.ts
 - **Lines:** 24
@@ -14,12 +18,15 @@
 - **Issues:**
   - Missing error handling
 
+### ⚠️ movie-scraper.ts
+- **Lines:** 126
+- **Quality Score:** 70/100
+- **Issues:**
+  - 3 TODO items pending
+  - Missing error handling
+
 ### ✅ kai-pulse.ts
 - **Lines:** 58
-- **Quality Score:** 100/100
-
-### ✅ kai-reasoner.ts
-- **Lines:** 84
 - **Quality Score:** 100/100
 
 ## Recommendations

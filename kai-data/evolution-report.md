@@ -1,5 +1,5 @@
 # 🧬 KAI Evolution Report
-**Generated:** 2026-05-16T00:08:34.363Z
+**Generated:** 2026-05-17T00:14:48.397Z
 
 ## Summary
 - **Scripts Analyzed:** 5
@@ -8,6 +8,10 @@
 
 ## Script Details
 
+### ✅ kai-trading-monitor.ts
+- **Lines:** 75
+- **Quality Score:** 100/100
+
 ### ⚠️ movie-scraper.ts
 - **Lines:** 126
 - **Quality Score:** 70/100
@@ -15,20 +19,16 @@
   - 3 TODO items pending
   - Missing error handling
 
-### ✅ kai-reasoner.ts
-- **Lines:** 134
+### ✅ kai-pulse.ts
+- **Lines:** 58
 - **Quality Score:** 100/100
 
 ### ✅ presence-engine.ts
 - **Lines:** 117
 - **Quality Score:** 100/100
 
-### ✅ kai-trading-monitor.ts
-- **Lines:** 75
-- **Quality Score:** 100/100
-
-### ✅ kai-pulse.ts
-- **Lines:** 58
+### ✅ kai-reasoner.ts
+- **Lines:** 134
 - **Quality Score:** 100/100
 
 ## Recommendations
